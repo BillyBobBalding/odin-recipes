@@ -1,0 +1,69 @@
+  103  git --version
+  104  git config --global user.name "ian"
+  105  git config --global user.email "ian_usmc@yahoo.com"
+  106  git config --global init.defaultBranch main
+  107  git config --global color.ui auto
+  108  git config --get user.name
+  109  git config --get user.email
+  110  git config --global user.name "BillyBobBalding"
+  111  git config --get user.name
+  112  git config --get user.email
+  119  git --version
+  120  git config --global init.defaultBranch main
+  130  git clone git@github.com:BillyBobBalding/git_test.git
+  159  git remote -v
+  165  git status
+  167  git status
+  169  git status
+  170  git add hello_world.txt
+  171  git status
+  172  git commit -m "Add hello_world.txt"
+  173  git status
+  174  git log
+  177  git status
+  178  git log
+  179  git status
+  180  git push
+  181  git status
+  182  git log
+  183  git status
+  187  git status
+  188  git add README.md
+  189  git status
+  190  git add .
+  191  git status
+  192  git commit -m "Edit README.md and hello_world.txt"
+  193  git status
+  194  git config --global core.editor "code --wait"
+  195  git status
+  196  git log
+  337  git clone git@github.com:BillyBobBalding/odin-recipes.git
+  339  git remote -v
+  353  git clone git@github.com:BillyBobBalding/odin-recipes.git
+  357  git remote -v
+  390  git add .
+  391  git status
+  392  git commit -m "Prime Rib recipe finished"
+  393  git status
+  394  git push
+  395  git status
+  401  git status
+  410  git status
+  411  git add .
+  412  git status
+  413  git commit -m "Apple Pie Recipe Added"
+  414  git status
+  415  git push origin main
+  416  git status
+  418  git status
+  419  git add .
+  420  git status
+  421  git commit -m "Tennessee Meatload Added"
+  422  git status
+  423  git push origin main
+  424  git status
+  431  git clone git@github.com:TheOdinProject/css-exercises.git
+  442  git status
+  447  git status
+  581  git status
+  585  history | grep "git " > termninal-history.txt 
