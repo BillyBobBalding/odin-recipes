@@ -29,6 +29,11 @@ img {
     height: auto;
 }
 
+img:hover {
+    transform: scale(1.05);
+    border-radius: 10px;
+}
+
 .col.recipe {
     padding: 0;
     text-align: center;
