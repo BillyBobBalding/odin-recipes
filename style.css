@@ -3,6 +3,10 @@ html {
     position: relative;
 }
 
+header {
+    position: fixed;
+}
+
 body {
     background: linear-gradient(#c1effa, #aab8e7);
     /* height: 600px; */
@@ -13,11 +17,12 @@ body {
 
 .contents {
     display: block;
-    margin: 0, auto;
     border: 2px solid black;
+    border-radius: 10px;
     width: 70%;
     margin: 0 auto;
     padding: 0 15px;
+    box-shadow: 5px 10px;
 }
 
 h1 {
@@ -28,12 +33,10 @@ h1 {
 
 .even-cols{
     display: flex;
-    /* background-color: blue; */
 }
 
 .even-cols > * {
     flex-basis: 100%;
-    /* background-color: #ff0000; */
     padding: 15px;
     margin-top: auto;
     margin-bottom: auto;
