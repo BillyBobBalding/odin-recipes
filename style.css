@@ -15,6 +15,15 @@ body {
     height: auto;
 }
 
+.index {
+    display: block;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 70%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
 .contents {
     display: block;
     border: 2px solid black;
